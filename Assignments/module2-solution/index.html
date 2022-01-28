@@ -30,10 +30,10 @@
 		font-family: comic sans ms,calibri;
 		font-weight: bold;
 		background-color: darkgrey;
-				border: 3px solid black;
+		border: 3px solid black;
 		padding: 5px;
 		margine: 20px;
-			width: 90%;
+		width: 90%;
 		height: 160px;
 		margin-right: auto;
 		margin-left: auto;
@@ -104,8 +104,8 @@
 
 	/*for tablet medium screen devices*/
 
-	@media  (min-width: 970px) and (max-width: 1199px){
-		.col-md-1, .col-md-2, .col-md-3 {
+	@media  (min-width: 799px) and (max-width: 1199px){
+		.col-md-1, .col-md-2{
 			float: left;
 		}
 
@@ -116,11 +116,20 @@
 		.col-md-2 {
 			width: 50%;
 		}
-		.col-md-3 {
-			width: 50%;
-		}
+		
 	}
 	
+	@media  (min-width: 799px) and (max-width: 1199px){
+		.col-md-1 {
+			float: left;
+			
+		}
+
+		.col-md-1 {
+
+		width:100%;
+		}
+	}
 
 	</style>
 </head>
@@ -130,7 +139,7 @@
 
 <div class="row">
 
-<div class="col-lg-3 col-md-3">
+<div class="col-lg-3 col-md-2">
 <div class=" b1">
 	<div class="p1 chicken">Chicken</div>
 	
@@ -140,7 +149,7 @@
 </div>
 
 
-<div class="col-lg-3 col-md-3">
+<div class="col-lg-3 col-md-2">
 <div class=" b1">
 	<div class="p1 beef">Beef</div>
 	
@@ -149,7 +158,7 @@
 </div>
 </div>
 
-<div class="col-lg-3 col-md-3">
+<div class="col-lg-3 col-md-2 col-md-1">
 
 <div class=" b1">
 	<div class="p1 sushi">Sushi</div>
